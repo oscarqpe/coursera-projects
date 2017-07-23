@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mis Mascotas</string>
+    <string name="contacto">Contacto</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="form_nombre_completo">Nombre Completo</string>
+    <string name="form_email">Email</string>
+    <string name="form_mensaje">Mensaje</string>
+    <string name="form_submit">Enviar Comentario</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
