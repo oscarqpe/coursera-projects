@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pe.oscarqpe.com.mismascotaswebservice.About">
+
+    <include
+        android:id="@+id/mi_bar"
+        layout="@layout/toolbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/mi_bar"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acerca_de"
+            android:textAlignment="center"
+            android:textSize="@dimen/title_form"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNombreCompleto"
+            android:layout_marginTop="4dp"
+            android:text="Oscar Edmit"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTelefono"
+            android:layout_marginTop="4dp"
+            android:text="944432448"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEmail"
+            android:layout_marginTop="4dp"
+            android:text="oscarqpe@gmail.com"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDescripcion"
+            android:layout_marginTop="4dp"
+            android:text="Me gusta programar..."/>
+    </LinearLayout>
+</RelativeLayout>
